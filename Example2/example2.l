@@ -3,5 +3,5 @@
 %}
 %%
 [0-9]+ printf("Number\n");
-[a-zA-Z][a-zA-Z0-9]* printf("Word can be used as an identifier\n");
+[_a-zA-Z][_a-zA-Z0-9]* printf("Word can be used as an identifier\n");
 %%
